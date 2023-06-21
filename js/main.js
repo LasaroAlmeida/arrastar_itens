@@ -2,8 +2,6 @@ import { getTabuleiro } from "../stage.js";
 
 // drag and drop api
 const eTabuleiro = document.querySelector(".tabuleiro");
-const disco = document.querySelector(".disco");
-
 
 
 let arrastado = null;
