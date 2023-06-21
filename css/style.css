@@ -27,7 +27,7 @@ body {
     background-color: rgb(192, 180, 180);
     width: calc(100%/7);
     aspect-ratio: 1;
-    height: 70px;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,7 +35,7 @@ body {
 
 .disco{
     background-color: black;
-    border: 4px solid white;
+    border: 2px solid white;
     height: 80%;
     aspect-ratio: 1;
     border-radius: 50%;
@@ -43,5 +43,5 @@ body {
 
 .disco.branco{
     background-color: white;
-    border: 4px solid black;
+    border: 2px solid black;
 }
