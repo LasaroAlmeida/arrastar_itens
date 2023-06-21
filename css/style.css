@@ -1,0 +1,47 @@
+*{
+    /* O tamanho é padrão, uma borda fica de dentro
+    o elemento não vai aumentar em razão da borda */
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    margin: 0 auto;
+}
+.tabuleiro{
+    background-color: goldenrod;
+    padding:2%;
+    display: flex;
+    gap: 1%;
+    max-width:500px;
+    width: 100%;
+}
+
+.casa{
+    background-color: rgb(192, 180, 180);
+    width: calc(100%/7);
+    aspect-ratio: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.disco{
+    background-color: black;
+    border: 2px solid white;
+    height: 80%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+
+.disco.branco{
+    background-color: white;
+    border: 2px solid black;
+}
